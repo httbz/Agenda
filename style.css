@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+main {
+  height: 649px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-image: url(./monkey_bg.png);
+  background-size: cover;
+}
+label {
+  font-weight: 500;
+}
+.box {
+  margin-left: 425px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 45px;
+  width: 360px;
+  background-color: #f3f3f3;
+}
+.form-input {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.form-control {
+  width: 300px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px rgb(73, 73, 73);
+}
+.box-footer {
+  margin-left: 425px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  text-align: center;
+  padding: 7px;
+  width: 436px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 1px solid black;
+}
+.box-header {
+  margin-left: 425px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  text-align: center;
+  padding: 7px;
+  width: 436px;
+  background-color: #bdbdbd;
+  border-radius: 10px 10px 0px 0px;
+}
+.btn {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  width: 80px;
+  background-color: chartreuse;
+  font-weight: 700;
+  box-shadow: 2px 2px 1px rgb(73, 73, 73);
+  margin-left: 80px;
+}
+.btn:active {
+  opacity: 50%;
+}
