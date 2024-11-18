@@ -6,6 +6,7 @@
 }
 
 main {
+  min-height: 649px;
   height: auto;
   display: flex;
   justify-content: center;
